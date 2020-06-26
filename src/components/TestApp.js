@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Preview from "../containers/Preview";
-import Speed from "../containers/Speed";
-import getText from "../containers/getText";
+import Preview from "./Preview";
+import Speed from "./Speed";
+import getText from "../utils/getText";
 
 import { Alert, Button, Jumbotron } from "reactstrap";
 // import axios from 'axios'
